@@ -4,7 +4,7 @@ Port of Super Mega Runners to the PS Vita.
 
 ## Warning
 
-Because this is the product of a decompilation, the source code will not be public; this repository is only for only for releases and bug reports.
+Because this is the product of a decompilation, the source code will not be public; this repository is only for releases and bug reports.
 
 ## Controls
 

@@ -23,19 +23,12 @@ Because this is the product of a decompilation, the source code will not be publ
 - There's a share button but it doesn't work (and probably never will).
 - Initial loading takes a bit.
 
-## Requirements for installation
+## How to Install
 
-- Install Python.
-- Run "pip install cryptography".
-
-## Installation
-
-- download SuperMegaRunVita.vpk and install it on your PS Vita.
-- Download SuperMegaRunData.zip and extract the files to a folder.
-- Now find and download the APK file for version 10.0 of the game, rename the file to "game.apk" and move it to the same folder as SuperMegaRunData.
-- Run decrypt.py and if it asks for a password, just press enter.
-- If everything went well, you should have a file called data.zip.
-- Unzip the data.zip file.
-- Move the extracted content from data.zip to "ux0:app/SMRV00000/".
-
-
+- Find the APK file for version 10.0 of the game and extract it.
+- Download the `datafiles.zip` and `smrun.vpk` from the Release page.
+- Install `smrun.vpk` on your PSVita.
+- Extract on your PC `datafiles.zip` in a folder of your preference.
+- From the APK files, copy all the files to the `smrun` folder in the datafiles folder.
+- Run `patch_files.bat`.
+- Extract the contents of the generated data.zip file and copy it to `ux0:app/SMRV00000/`.
